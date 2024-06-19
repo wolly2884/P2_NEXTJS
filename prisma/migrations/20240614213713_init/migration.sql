@@ -22,7 +22,7 @@ CREATE TABLE `Cliente` (
     `ds_logradouro_cliente` VARCHAR(150) NOT NULL,
     `cd_numero_logradouro_cliente` VARCHAR(5) NOT NULL,
     `ds_complemento_logradouro_cliente` VARCHAR(150) NOT NULL,
-    `cd_cep_cliente` VARCHAR(8) NOT NULL,
+    `cd_cep_cliente` VARCHAR(9) NOT NULL,
 
     PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
